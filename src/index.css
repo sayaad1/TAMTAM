@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', 'Quicksand', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-romantic {
+  font-family: 'Alex Brush', 'Dancing Script', cursive;
+}
+
+.font-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-handwriting {
+  font-family: 'Reenie Beanie', cursive;
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(3deg);
+  }
+}
+
+@keyframes pulse-heart {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.18);
+  }
+}
+
+@keyframes gentle-sway {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.animate-pulse-heart {
+  animation: pulse-heart 1.6s ease-in-out infinite;
+}
+
+.animate-sway {
+  animation: gentle-sway 3s ease-in-out infinite;
+}
+
+/* Glassmorphism subtle card styling */
+.romantic-glass {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 228, 230, 0.8);
+}
+
+.romantic-glow {
+  box-shadow: 0 10px 30px -5px rgba(244, 63, 94, 0.18), 0 4px 12px rgba(251, 113, 133, 0.12);
+}

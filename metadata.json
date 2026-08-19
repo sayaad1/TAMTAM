@@ -1,0 +1,6 @@
+{
+  "name": "Romantic Love Story for Her",
+  "description": "An interactive, ultra-romantic gift website featuring animated grey and white bears, playful interactive question box, customizable love letter, memory polaroids, and music box.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
